@@ -1,0 +1,4 @@
+module MapleStory_2
+typeinfo appMapleStory_2.qmltypes
+prefer :/MapleStory_2/
+

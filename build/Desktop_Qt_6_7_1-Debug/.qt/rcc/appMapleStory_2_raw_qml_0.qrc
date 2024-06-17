@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/MapleStory_2/">
+    <file alias="main.qml">/root/MapleStory_2/main.qml</file>
+  </qresource>
+</RCC>
+
