@@ -7,4 +7,5 @@
 /root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qmake_MapleStory_2.qrc
 --resource
 /root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/appMapleStory_2_raw_qml_0.qrc
-/root/MapleStory_2/main.qml
+/root/MapleStory_2/Choose.qml
+/root/MapleStory_2/Components.qml

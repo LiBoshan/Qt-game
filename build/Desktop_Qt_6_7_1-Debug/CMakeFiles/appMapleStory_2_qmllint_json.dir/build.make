@@ -70,7 +70,8 @@ include CMakeFiles/appMapleStory_2_qmllint_json.dir/compiler_depend.make
 include CMakeFiles/appMapleStory_2_qmllint_json.dir/progress.make
 
 CMakeFiles/appMapleStory_2_qmllint_json: /opt/Qt/6.7.1/gcc_64/bin/qmllint
-CMakeFiles/appMapleStory_2_qmllint_json: /root/MapleStory_2/main.qml
+CMakeFiles/appMapleStory_2_qmllint_json: /root/MapleStory_2/Choose.qml
+CMakeFiles/appMapleStory_2_qmllint_json: /root/MapleStory_2/Components.qml
 CMakeFiles/appMapleStory_2_qmllint_json: .rcc/qmllint/appMapleStory_2_json.rsp
 	cd /root/MapleStory_2 && /opt/Qt/6.7.1/gcc_64/bin/qmllint @/root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/.rcc/qmllint/appMapleStory_2_json.rsp
 

@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
-  "MapleStory_2/main.qml"
+  "MapleStory_2/Choose.qml"
+  "MapleStory_2/Components.qml"
 )
 
 # Per-language clean rules from dependency scanning.

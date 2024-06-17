@@ -14,7 +14,8 @@ qt_add_executable(appMapleStory_2
 qt_add_qml_module(appMapleStory_2
     URI MapleStory_2
     VERSION 1.0
-    QML_FILES main.qml 
+    QML_FILES Choose.qml
+    QML_FILES Components.qml
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.

@@ -81,13 +81,13 @@
 		{
 			"backtrace" : 5,
 			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_7_1-Debug/MapleStory_2/main.qml",
+			"path" : "build/Desktop_Qt_6_7_1-Debug/MapleStory_2/Choose.qml",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_7_1-Debug/MapleStory_2/main.qml.rule",
+			"path" : "build/Desktop_Qt_6_7_1-Debug/MapleStory_2/Choose.qml.rule",
 			"sourceGroupIndex" : 1
 		}
 	],

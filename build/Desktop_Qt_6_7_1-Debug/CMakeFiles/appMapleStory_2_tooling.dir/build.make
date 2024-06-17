@@ -69,11 +69,16 @@ include CMakeFiles/appMapleStory_2_tooling.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/appMapleStory_2_tooling.dir/progress.make
 
-MapleStory_2/main.qml: /root/MapleStory_2/main.qml
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Copying main.qml to /root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/MapleStory_2/main.qml"
-	cd /root/MapleStory_2 && /usr/bin/cmake -E copy /root/MapleStory_2/main.qml /root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/MapleStory_2/main.qml
+MapleStory_2/Choose.qml: /root/MapleStory_2/Choose.qml
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Copying Choose.qml to /root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/MapleStory_2/Choose.qml"
+	cd /root/MapleStory_2 && /usr/bin/cmake -E copy /root/MapleStory_2/Choose.qml /root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/MapleStory_2/Choose.qml
 
-appMapleStory_2_tooling: MapleStory_2/main.qml
+MapleStory_2/Components.qml: /root/MapleStory_2/Components.qml
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Copying Components.qml to /root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/MapleStory_2/Components.qml"
+	cd /root/MapleStory_2 && /usr/bin/cmake -E copy /root/MapleStory_2/Components.qml /root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/MapleStory_2/Components.qml
+
+appMapleStory_2_tooling: MapleStory_2/Choose.qml
+appMapleStory_2_tooling: MapleStory_2/Components.qml
 appMapleStory_2_tooling: CMakeFiles/appMapleStory_2_tooling.dir/build.make
 .PHONY : appMapleStory_2_tooling
 
