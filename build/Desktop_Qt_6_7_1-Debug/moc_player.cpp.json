@@ -1,0 +1,24 @@
+{
+    "classes": [
+        {
+            "className": "Player",
+            "object": true,
+            "qualifiedClassName": "Player",
+            "signals": [
+                {
+                    "access": "public",
+                    "name": "attacked",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "GameEntity"
+                }
+            ]
+        }
+    ],
+    "inputFile": "player.h",
+    "outputRevision": 68
+}

@@ -1,0 +1,17 @@
+{
+    "classes": [
+        {
+            "className": "Monster",
+            "object": true,
+            "qualifiedClassName": "Monster",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "GameEntity"
+                }
+            ]
+        }
+    ],
+    "inputFile": "monster.h",
+    "outputRevision": 68
+}
