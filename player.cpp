@@ -1,6 +1,8 @@
 #include "player.h"
 #include <QPointF>
 
+#include <QDebug>
+
 Player::Player(QObject *parent)
     : GameEntity(parent)
     , m_speed(10)

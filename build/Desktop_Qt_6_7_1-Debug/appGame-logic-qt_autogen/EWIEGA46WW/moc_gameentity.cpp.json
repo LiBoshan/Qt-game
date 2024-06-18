@@ -1,0 +1,66 @@
+{
+    "classes": [
+        {
+            "className": "GameEntity",
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": true,
+                    "index": 0,
+                    "name": "position",
+                    "notify": "positionChanged",
+                    "read": "position",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QPointF",
+                    "user": false,
+                    "write": "setPosition"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": true,
+                    "index": 1,
+                    "name": "health",
+                    "notify": "healthChanged",
+                    "read": "health",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "sethealth"
+                }
+            ],
+            "qualifiedClassName": "GameEntity",
+            "signals": [
+                {
+                    "access": "public",
+                    "name": "positionChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "healthChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "died",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "gameentity.h",
+    "outputRevision": 68
+}

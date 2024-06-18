@@ -1,0 +1,50 @@
+{
+    "classes": [
+        {
+            "className": "Monster",
+            "methods": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "playerPosition",
+                            "type": "QPointF"
+                        },
+                        {
+                            "name": "speed",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "updateMonsterPosition",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "mposition",
+                    "returnType": "QPointF"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "damage",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "beAttacked",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "Monster",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "GameEntity"
+                }
+            ]
+        }
+    ],
+    "inputFile": "monster.h",
+    "outputRevision": 68
+}

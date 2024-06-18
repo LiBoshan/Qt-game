@@ -1,0 +1,14 @@
+-rootPath
+/root/Qt creater/Game-logic-qt
+-cmake-output
+-output-file
+/root/Qt creater/Game-logic-qt/build/Desktop_Qt_6_7_1-Debug/.qt/qml_imports/appGame-logic-qt_build.cmake
+-importPath
+/root/Qt creater/Game-logic-qt/build/Desktop_Qt_6_7_1-Debug/Game-logic-qt
+-importPath
+/root/Qt creater/Game-logic-qt/build/Desktop_Qt_6_7_1-Debug
+-importPath
+/opt/Qt/6.7.1/gcc_64/./qml
+-qrcFiles
+/root/Qt creater/Game-logic-qt/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qmake_Game-logic-qt.qrc
+/root/Qt creater/Game-logic-qt/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/appGame-logic-qt_raw_qml_0.qrc

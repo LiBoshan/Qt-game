@@ -27,9 +27,9 @@ public:
     void sethealth(int health);
 
 signals:
-    void positionChanged();                        //位置变化
-    void healthChanged();                          //血量变化
-    void died();                                   //结束信号
+    void positionChanged(); //位置变化
+    void healthChanged();   //血量变化
+    void died();            //结束信号
 
 protected:
     QPointF m_position;

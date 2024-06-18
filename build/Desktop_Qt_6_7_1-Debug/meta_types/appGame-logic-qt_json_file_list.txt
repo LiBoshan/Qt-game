@@ -1,0 +1,3 @@
+/root/Qt creater/Game-logic-qt/build/Desktop_Qt_6_7_1-Debug/appGame-logic-qt_autogen/include/../EWIEGA46WW/moc_gameentity.cpp.json
+/root/Qt creater/Game-logic-qt/build/Desktop_Qt_6_7_1-Debug/appGame-logic-qt_autogen/include/../EWIEGA46WW/moc_monster.cpp.json
+/root/Qt creater/Game-logic-qt/build/Desktop_Qt_6_7_1-Debug/appGame-logic-qt_autogen/include/../EWIEGA46WW/moc_player.cpp.json

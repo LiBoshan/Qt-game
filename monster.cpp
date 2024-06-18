@@ -5,14 +5,14 @@
 Monster::Monster(QObject *parent)
     : GameEntity{parent}
     , m_position(200, 200) //怪物初始位置
-{
-}
+{}
 
 QPointF Monster::mposition() const
 {
     return m_position;
 }
 
+//void Monster::setmPosition(QPointF &value) {}
 void Monster::updateMonsterPosition(const QPointF &playerPosition, int speed)
 {
     QPointF direction = playerPosition - m_position;

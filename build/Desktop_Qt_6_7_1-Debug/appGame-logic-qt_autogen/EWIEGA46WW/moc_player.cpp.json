@@ -1,0 +1,51 @@
+{
+    "classes": [
+        {
+            "className": "Player",
+            "methods": [
+                {
+                    "access": "public",
+                    "name": "moveup",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "movedown",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "moveleft",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "moveright",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "attack",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "Player",
+            "signals": [
+                {
+                    "access": "public",
+                    "name": "beginAttack",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "GameEntity"
+                }
+            ]
+        }
+    ],
+    "inputFile": "player.h",
+    "outputRevision": 68
+}

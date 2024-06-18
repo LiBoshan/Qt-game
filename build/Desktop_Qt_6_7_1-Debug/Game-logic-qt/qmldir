@@ -1,0 +1,4 @@
+module Game-logic-qt
+typeinfo appGame-logic-qt.qmltypes
+prefer :/Game-logic-qt/
+

@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/Game-logic-qt">
+    <file alias="qmldir">/root/Qt creater/Game-logic-qt/build/Desktop_Qt_6_7_1-Debug/Game-logic-qt/qmldir</file>
+  </qresource>
+</RCC>
+

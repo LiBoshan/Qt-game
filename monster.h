@@ -17,6 +17,7 @@ public:
     //更新位置，并对角色进行跟踪
 
     Q_INVOKABLE QPointF mposition() const;
+    //Q_INVOKABLE void setmPosition(QPointF &value);
 
     Q_INVOKABLE void beAttacked(int damage);
     //被攻击，设置攻击力

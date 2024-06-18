@@ -1,5 +1,6 @@
 #include <QGuiApplication>
-#include <QJSEngine>
+#include <QQmlApplicationEngine>
+
 #include <QQmlApplicationEngine>
 #include <QQmlContext>
 #include "gameentity.h"
@@ -8,9 +9,6 @@
 
 int main(int argc, char *argv[])
 {
-#if QT_VERSION < QT_VERSION_CHECK(6, 0, 0)
-    QCoreApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
-#endif
     QGuiApplication app(argc, argv);
 
     qmlRegisterType<GameEntity>("QmlGameEntity", 1, 0, "GameEntity");
@@ -18,12 +16,7 @@ int main(int argc, char *argv[])
     qmlRegisterType<Monster>("QmlMonster", 1, 0, "Monster");
 
     QQmlApplicationEngine engine;
-
-    QQmlContext *context = engine.rootContext();
-    Monster *monster = new Monster();
-    context->setContextProperty("monster", monster);
-
-    const QUrl url(QStringLiteral("qrc:/main.qml"));
+    const QUrl url(u"qrc:/Game-logic-qt/main.qml"_qs);
     QObject::connect(
         &engine,
         &QQmlApplicationEngine::objectCreated,

@@ -1,0 +1,23 @@
+# Hashes of file build rules.
+821d96b3eb454b26c30b4390306fb2e8 .qt/qml_imports/appGame-logic-qt_build.cmake
+0e8b536a759c6b1acacacdb6a2d9d421 .qt/rcc/qrc_appGame-logic-qt_raw_qml_0.cpp
+a767773fbc699947581c9a26c860eb10 .qt/rcc/qrc_qmake_Game-logic-qt.cpp
+68b5d4f469d3174714b7fde6677677d2 .rcc/qmlcache/appGame-logic-qt_Player_qml_qml.cpp
+6da87be9c27c68ec83e9b68a88c68193 .rcc/qmlcache/appGame-logic-qt_main_qml.cpp
+408e8db73b8d1f395c2b4058451b1be7 .rcc/qmlcache/appGame-logic-qt_qmlcache_loader.cpp
+4d669ca7460e1964a03b5c7fc3255fda CMakeFiles/appGame-logic-qt_autogen
+4d669ca7460e1964a03b5c7fc3255fda CMakeFiles/appGame-logic-qt_qmlimportscan
+362987083cf3004447184d90a37e0e8d CMakeFiles/appGame-logic-qt_qmllint
+202fccf6dbbbc33d31b7cba25eea666a CMakeFiles/appGame-logic-qt_qmllint_json
+5f58ca82a102e509cec521668513f133 CMakeFiles/appGame-logic-qt_qmllint_module
+4d669ca7460e1964a03b5c7fc3255fda CMakeFiles/appGame-logic-qt_qmltyperegistration
+2d3cacc285d5d49367167debf7531030 Game-logic-qt/Player.qml
+bedecabc5685f819260a939ff39b4e2c Game-logic-qt/Player_qml.qml
+07d61adadf081ca8c0d272b138d7a59c Game-logic-qt/images.qrc
+2e74d6d238c2a35497003d15a46b7538 Game-logic-qt/images/player.jpg
+45b9d68a63d2038fe1bf1e979c79bddc Game-logic-qt/main.qml
+0b56e2a30d69fc429786816882877e7e appGame-logic-qt_autogen/timestamp
+3bb4b3cf6e130836d0ade6cf733d220c appgame-logic-qt_qmltyperegistrations.cpp
+c2b00b1c12567d0cf3a2cf05226a83b9 meta_types/appGame-logic-qt_json_file_list.txt
+e52c92e49ebc5b1d737ad9d0c058b5b7 meta_types/qt6appgame-logic-qt_debug_metatypes.json
+bab0bf246bbe91f81034acd6d208de22 meta_types/qt6appgame-logic-qt_debug_metatypes.json.gen

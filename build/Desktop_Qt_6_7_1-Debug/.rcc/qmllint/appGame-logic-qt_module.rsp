@@ -1,0 +1,10 @@
+-I
+/root/Qt creater/Game-logic-qt/build/Desktop_Qt_6_7_1-Debug
+-I
+/opt/Qt/6.7.1/gcc_64/./qml
+--resource
+/root/Qt creater/Game-logic-qt/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qmake_Game-logic-qt.qrc
+--resource
+/root/Qt creater/Game-logic-qt/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/appGame-logic-qt_raw_qml_0.qrc
+--module
+Game-logic-qt
