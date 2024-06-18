@@ -5,20 +5,13 @@ import Qt5Compat.GraphicalEffects
 import QtQuick.Layouts
 
 ApplicationWindow {
-    id:choose
+    property alias choose:_choose
+    id:_choose
     width: 1200
     height: 800
     visible: true
     title: qsTr("Hello World")
     color:"#9aa885"
-
-    StackView {
-            id: stackView
-            anchors.fill: parent
-            property var pages: [
-                allComponents.page1
-            ]
-        }
 
     Rectangle {
         id: container
@@ -34,6 +27,7 @@ ApplicationWindow {
         Component{
             id:delegate_guanqia
             Rectangle{
+                id:guanqia
                 width: container.width/4
                 height: container.width/4
                 radius: 10
@@ -43,7 +37,34 @@ ApplicationWindow {
                     onTapped:{
                         text_guanqia.color="#6e6e6e"
                         console.log("进入关卡【"+index+"】")
-                        StackView.push(pages[index])
+                        if(index==0){
+                            allComponents.page0.visible=true
+                            allComponents.page1.visible=false
+                            allComponents.page2.visible=false
+                            allComponents.page3.visible=false
+                        }
+                        if(index==1){
+                            allComponents.page1.visible=true
+                            allComponents.page0.visible=false
+                            allComponents.page2.visible=false
+                            allComponents.page3.visible=false
+                        }
+                        if(index==2){
+                            allComponents.page2.visible=true
+                            allComponents.page1.visible=false
+                            allComponents.page0.visible=false
+                            allComponents.page3.visible=false
+                        }
+                        if(index==3){
+                            allComponents.page3.visible=true
+                            allComponents.page1.visible=false
+                            allComponents.page2.visible=false
+                            allComponents.page0.visible=false
+                        }
+                        console.log("切换到页面【"+index+"】")
+                        guanqia.visible=false
+                        num_guanqia.visible=false
+                        allComponents.edgePage.visible=true
                     }
                 }
                 Text {
@@ -56,17 +77,18 @@ ApplicationWindow {
             }
         }
         GridView {
-                    width: container.width
-                    height: container.height
-                    cellWidth: container.width / 2
-                    cellHeight: container.height / 3
-                    anchors.centerIn: parent
-                    model: 4
-                    delegate: delegate_guanqia
+            id:num_guanqia
+            width: container.width
+            height: container.height
+            cellWidth: container.width / 2
+            cellHeight: container.height / 3
+            anchors.centerIn: parent
+            model: 4
+            delegate: delegate_guanqia
         }
-    }
 
-    Components{
-        id:allComponents
     }
+    Components {
+            id: allComponents
+        }
 }
