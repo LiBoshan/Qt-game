@@ -120,32 +120,43 @@ Game-logic-qt/appGame-logic-qt.qmltypes: appgame-logic-qt_qmltyperegistrations.c
 	/usr/bin/cmake -E make_directory "/root/Qt creater/Game-logic-qt/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache"
 	/opt/Qt/6.7.1/gcc_64/libexec/qmlcachegen --bare --resource-path /Game-logic-qt/main.qml -I "/root/Qt creater/Game-logic-qt/build/Desktop_Qt_6_7_1-Debug" -I /opt/Qt/6.7.1/gcc_64/./qml -i "/root/Qt creater/Game-logic-qt/build/Desktop_Qt_6_7_1-Debug/Game-logic-qt/qmldir" --resource "/root/Qt creater/Game-logic-qt/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qmake_Game-logic-qt.qrc" --resource "/root/Qt creater/Game-logic-qt/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/appGame-logic-qt_raw_qml_0.qrc" -o "/root/Qt creater/Game-logic-qt/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appGame-logic-qt_main_qml.cpp" "/root/Qt creater/Game-logic-qt/main.qml"
 
+.rcc/qmlcache/appGame-logic-qt_Bullet_qml.cpp: /opt/Qt/6.7.1/gcc_64/libexec/qmlcachegen
+.rcc/qmlcache/appGame-logic-qt_Bullet_qml.cpp: /root/Qt\ creater/Game-logic-qt/Bullet.qml
+.rcc/qmlcache/appGame-logic-qt_Bullet_qml.cpp: .qt/rcc/qmake_Game-logic-qt.qrc
+.rcc/qmlcache/appGame-logic-qt_Bullet_qml.cpp: .qt/rcc/appGame-logic-qt_raw_qml_0.qrc
+.rcc/qmlcache/appGame-logic-qt_Bullet_qml.cpp: Game-logic-qt/appGame-logic-qt.qmltypes
+.rcc/qmlcache/appGame-logic-qt_Bullet_qml.cpp: Game-logic-qt/qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/root/Qt creater/Game-logic-qt/build/Desktop_Qt_6_7_1-Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Generating .rcc/qmlcache/appGame-logic-qt_Bullet_qml.cpp"
+	/usr/bin/cmake -E make_directory "/root/Qt creater/Game-logic-qt/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache"
+	/opt/Qt/6.7.1/gcc_64/libexec/qmlcachegen --bare --resource-path /Game-logic-qt/Bullet.qml -I "/root/Qt creater/Game-logic-qt/build/Desktop_Qt_6_7_1-Debug" -I /opt/Qt/6.7.1/gcc_64/./qml -i "/root/Qt creater/Game-logic-qt/build/Desktop_Qt_6_7_1-Debug/Game-logic-qt/qmldir" --resource "/root/Qt creater/Game-logic-qt/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qmake_Game-logic-qt.qrc" --resource "/root/Qt creater/Game-logic-qt/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/appGame-logic-qt_raw_qml_0.qrc" -o "/root/Qt creater/Game-logic-qt/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appGame-logic-qt_Bullet_qml.cpp" "/root/Qt creater/Game-logic-qt/Bullet.qml"
+
 .qt/rcc/qrc_appGame-logic-qt_raw_qml_0.cpp: /root/Qt\ creater/Game-logic-qt/main.qml
+.qt/rcc/qrc_appGame-logic-qt_raw_qml_0.cpp: /root/Qt\ creater/Game-logic-qt/Bullet.qml
 .qt/rcc/qrc_appGame-logic-qt_raw_qml_0.cpp: /root/Qt\ creater/Game-logic-qt/images/player.jpg
 .qt/rcc/qrc_appGame-logic-qt_raw_qml_0.cpp: .qt/rcc/appGame-logic-qt_raw_qml_0.qrc
 .qt/rcc/qrc_appGame-logic-qt_raw_qml_0.cpp: /opt/Qt/6.7.1/gcc_64/./libexec/rcc
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/root/Qt creater/Game-logic-qt/build/Desktop_Qt_6_7_1-Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Running rcc for resource appGame-logic-qt_raw_qml_0"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/root/Qt creater/Game-logic-qt/build/Desktop_Qt_6_7_1-Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Running rcc for resource appGame-logic-qt_raw_qml_0"
 	/opt/Qt/6.7.1/gcc_64/libexec/rcc --output "/root/Qt creater/Game-logic-qt/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_appGame-logic-qt_raw_qml_0.cpp" --name appGame-logic-qt_raw_qml_0 "/root/Qt creater/Game-logic-qt/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/appGame-logic-qt_raw_qml_0.qrc" --no-zstd
 
 appGame-logic-qt_autogen/timestamp: /opt/Qt/6.7.1/gcc_64/./libexec/moc
 appGame-logic-qt_autogen/timestamp: CMakeFiles/appGame-logic-qt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/root/Qt creater/Game-logic-qt/build/Desktop_Qt_6_7_1-Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Automatic MOC for target appGame-logic-qt"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/root/Qt creater/Game-logic-qt/build/Desktop_Qt_6_7_1-Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Automatic MOC for target appGame-logic-qt"
 	/usr/bin/cmake -E cmake_autogen "/root/Qt creater/Game-logic-qt/build/Desktop_Qt_6_7_1-Debug/CMakeFiles/appGame-logic-qt_autogen.dir/AutogenInfo.json" Debug
 	/usr/bin/cmake -E touch "/root/Qt creater/Game-logic-qt/build/Desktop_Qt_6_7_1-Debug/appGame-logic-qt_autogen/timestamp"
 
 meta_types/appGame-logic-qt_json_file_list.txt: /opt/Qt/6.7.1/gcc_64/./libexec/cmake_automoc_parser
 meta_types/appGame-logic-qt_json_file_list.txt: appGame-logic-qt_autogen/timestamp
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/root/Qt creater/Game-logic-qt/build/Desktop_Qt_6_7_1-Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Running AUTOMOC file extraction for target appGame-logic-qt"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/root/Qt creater/Game-logic-qt/build/Desktop_Qt_6_7_1-Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Running AUTOMOC file extraction for target appGame-logic-qt"
 	/opt/Qt/6.7.1/gcc_64/libexec/cmake_automoc_parser --cmake-autogen-cache-file "/root/Qt creater/Game-logic-qt/build/Desktop_Qt_6_7_1-Debug/CMakeFiles/appGame-logic-qt_autogen.dir/ParseCache.txt" --cmake-autogen-info-file "/root/Qt creater/Game-logic-qt/build/Desktop_Qt_6_7_1-Debug/CMakeFiles/appGame-logic-qt_autogen.dir/AutogenInfo.json" --output-file-path "/root/Qt creater/Game-logic-qt/build/Desktop_Qt_6_7_1-Debug/meta_types/appGame-logic-qt_json_file_list.txt" --timestamp-file-path "/root/Qt creater/Game-logic-qt/build/Desktop_Qt_6_7_1-Debug/meta_types/appGame-logic-qt_json_file_list.txt.timestamp" --cmake-autogen-include-dir-path "/root/Qt creater/Game-logic-qt/build/Desktop_Qt_6_7_1-Debug/appGame-logic-qt_autogen/include"
 
 meta_types/qt6appgame-logic-qt_debug_metatypes.json: meta_types/qt6appgame-logic-qt_debug_metatypes.json.gen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/root/Qt creater/Game-logic-qt/build/Desktop_Qt_6_7_1-Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Generating meta_types/qt6appgame-logic-qt_debug_metatypes.json"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/root/Qt creater/Game-logic-qt/build/Desktop_Qt_6_7_1-Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Generating meta_types/qt6appgame-logic-qt_debug_metatypes.json"
 	/usr/bin/cmake -E true
 
 CMakeFiles/appGame-logic-qt.dir/appGame-logic-qt_autogen/mocs_compilation.cpp.o: CMakeFiles/appGame-logic-qt.dir/flags.make
 CMakeFiles/appGame-logic-qt.dir/appGame-logic-qt_autogen/mocs_compilation.cpp.o: appGame-logic-qt_autogen/mocs_compilation.cpp
 CMakeFiles/appGame-logic-qt.dir/appGame-logic-qt_autogen/mocs_compilation.cpp.o: CMakeFiles/appGame-logic-qt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/root/Qt creater/Game-logic-qt/build/Desktop_Qt_6_7_1-Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/appGame-logic-qt.dir/appGame-logic-qt_autogen/mocs_compilation.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/root/Qt creater/Game-logic-qt/build/Desktop_Qt_6_7_1-Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/appGame-logic-qt.dir/appGame-logic-qt_autogen/mocs_compilation.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appGame-logic-qt.dir/appGame-logic-qt_autogen/mocs_compilation.cpp.o -MF CMakeFiles/appGame-logic-qt.dir/appGame-logic-qt_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/appGame-logic-qt.dir/appGame-logic-qt_autogen/mocs_compilation.cpp.o -c "/root/Qt creater/Game-logic-qt/build/Desktop_Qt_6_7_1-Debug/appGame-logic-qt_autogen/mocs_compilation.cpp"
 
 CMakeFiles/appGame-logic-qt.dir/appGame-logic-qt_autogen/mocs_compilation.cpp.i: cmake_force
@@ -159,7 +170,7 @@ CMakeFiles/appGame-logic-qt.dir/appGame-logic-qt_autogen/mocs_compilation.cpp.s:
 CMakeFiles/appGame-logic-qt.dir/main.cpp.o: CMakeFiles/appGame-logic-qt.dir/flags.make
 CMakeFiles/appGame-logic-qt.dir/main.cpp.o: /root/Qt\ creater/Game-logic-qt/main.cpp
 CMakeFiles/appGame-logic-qt.dir/main.cpp.o: CMakeFiles/appGame-logic-qt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/root/Qt creater/Game-logic-qt/build/Desktop_Qt_6_7_1-Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/appGame-logic-qt.dir/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/root/Qt creater/Game-logic-qt/build/Desktop_Qt_6_7_1-Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/appGame-logic-qt.dir/main.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appGame-logic-qt.dir/main.cpp.o -MF CMakeFiles/appGame-logic-qt.dir/main.cpp.o.d -o CMakeFiles/appGame-logic-qt.dir/main.cpp.o -c "/root/Qt creater/Game-logic-qt/main.cpp"
 
 CMakeFiles/appGame-logic-qt.dir/main.cpp.i: cmake_force
@@ -173,7 +184,7 @@ CMakeFiles/appGame-logic-qt.dir/main.cpp.s: cmake_force
 CMakeFiles/appGame-logic-qt.dir/appgame-logic-qt_qmltyperegistrations.cpp.o: CMakeFiles/appGame-logic-qt.dir/flags.make
 CMakeFiles/appGame-logic-qt.dir/appgame-logic-qt_qmltyperegistrations.cpp.o: appgame-logic-qt_qmltyperegistrations.cpp
 CMakeFiles/appGame-logic-qt.dir/appgame-logic-qt_qmltyperegistrations.cpp.o: CMakeFiles/appGame-logic-qt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/root/Qt creater/Game-logic-qt/build/Desktop_Qt_6_7_1-Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/appGame-logic-qt.dir/appgame-logic-qt_qmltyperegistrations.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/root/Qt creater/Game-logic-qt/build/Desktop_Qt_6_7_1-Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/appGame-logic-qt.dir/appgame-logic-qt_qmltyperegistrations.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appGame-logic-qt.dir/appgame-logic-qt_qmltyperegistrations.cpp.o -MF CMakeFiles/appGame-logic-qt.dir/appgame-logic-qt_qmltyperegistrations.cpp.o.d -o CMakeFiles/appGame-logic-qt.dir/appgame-logic-qt_qmltyperegistrations.cpp.o -c "/root/Qt creater/Game-logic-qt/build/Desktop_Qt_6_7_1-Debug/appgame-logic-qt_qmltyperegistrations.cpp"
 
 CMakeFiles/appGame-logic-qt.dir/appgame-logic-qt_qmltyperegistrations.cpp.i: cmake_force
@@ -187,7 +198,7 @@ CMakeFiles/appGame-logic-qt.dir/appgame-logic-qt_qmltyperegistrations.cpp.s: cma
 CMakeFiles/appGame-logic-qt.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_qmake_Game-logic-qt.cpp.o: CMakeFiles/appGame-logic-qt.dir/flags.make
 CMakeFiles/appGame-logic-qt.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_qmake_Game-logic-qt.cpp.o: .qt/rcc/qrc_qmake_Game-logic-qt.cpp
 CMakeFiles/appGame-logic-qt.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_qmake_Game-logic-qt.cpp.o: CMakeFiles/appGame-logic-qt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/root/Qt creater/Game-logic-qt/build/Desktop_Qt_6_7_1-Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/appGame-logic-qt.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_qmake_Game-logic-qt.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/root/Qt creater/Game-logic-qt/build/Desktop_Qt_6_7_1-Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/appGame-logic-qt.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_qmake_Game-logic-qt.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appGame-logic-qt.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_qmake_Game-logic-qt.cpp.o -MF CMakeFiles/appGame-logic-qt.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_qmake_Game-logic-qt.cpp.o.d -o CMakeFiles/appGame-logic-qt.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_qmake_Game-logic-qt.cpp.o -c "/root/Qt creater/Game-logic-qt/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_qmake_Game-logic-qt.cpp"
 
 CMakeFiles/appGame-logic-qt.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_qmake_Game-logic-qt.cpp.i: cmake_force
@@ -201,7 +212,7 @@ CMakeFiles/appGame-logic-qt.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_qmake_G
 CMakeFiles/appGame-logic-qt.dir/gameentity.cpp.o: CMakeFiles/appGame-logic-qt.dir/flags.make
 CMakeFiles/appGame-logic-qt.dir/gameentity.cpp.o: /root/Qt\ creater/Game-logic-qt/gameentity.cpp
 CMakeFiles/appGame-logic-qt.dir/gameentity.cpp.o: CMakeFiles/appGame-logic-qt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/root/Qt creater/Game-logic-qt/build/Desktop_Qt_6_7_1-Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/appGame-logic-qt.dir/gameentity.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/root/Qt creater/Game-logic-qt/build/Desktop_Qt_6_7_1-Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/appGame-logic-qt.dir/gameentity.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appGame-logic-qt.dir/gameentity.cpp.o -MF CMakeFiles/appGame-logic-qt.dir/gameentity.cpp.o.d -o CMakeFiles/appGame-logic-qt.dir/gameentity.cpp.o -c "/root/Qt creater/Game-logic-qt/gameentity.cpp"
 
 CMakeFiles/appGame-logic-qt.dir/gameentity.cpp.i: cmake_force
@@ -215,7 +226,7 @@ CMakeFiles/appGame-logic-qt.dir/gameentity.cpp.s: cmake_force
 CMakeFiles/appGame-logic-qt.dir/monster.cpp.o: CMakeFiles/appGame-logic-qt.dir/flags.make
 CMakeFiles/appGame-logic-qt.dir/monster.cpp.o: /root/Qt\ creater/Game-logic-qt/monster.cpp
 CMakeFiles/appGame-logic-qt.dir/monster.cpp.o: CMakeFiles/appGame-logic-qt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/root/Qt creater/Game-logic-qt/build/Desktop_Qt_6_7_1-Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/appGame-logic-qt.dir/monster.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/root/Qt creater/Game-logic-qt/build/Desktop_Qt_6_7_1-Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/appGame-logic-qt.dir/monster.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appGame-logic-qt.dir/monster.cpp.o -MF CMakeFiles/appGame-logic-qt.dir/monster.cpp.o.d -o CMakeFiles/appGame-logic-qt.dir/monster.cpp.o -c "/root/Qt creater/Game-logic-qt/monster.cpp"
 
 CMakeFiles/appGame-logic-qt.dir/monster.cpp.i: cmake_force
@@ -229,7 +240,7 @@ CMakeFiles/appGame-logic-qt.dir/monster.cpp.s: cmake_force
 CMakeFiles/appGame-logic-qt.dir/player.cpp.o: CMakeFiles/appGame-logic-qt.dir/flags.make
 CMakeFiles/appGame-logic-qt.dir/player.cpp.o: /root/Qt\ creater/Game-logic-qt/player.cpp
 CMakeFiles/appGame-logic-qt.dir/player.cpp.o: CMakeFiles/appGame-logic-qt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/root/Qt creater/Game-logic-qt/build/Desktop_Qt_6_7_1-Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/appGame-logic-qt.dir/player.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/root/Qt creater/Game-logic-qt/build/Desktop_Qt_6_7_1-Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/appGame-logic-qt.dir/player.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appGame-logic-qt.dir/player.cpp.o -MF CMakeFiles/appGame-logic-qt.dir/player.cpp.o.d -o CMakeFiles/appGame-logic-qt.dir/player.cpp.o -c "/root/Qt creater/Game-logic-qt/player.cpp"
 
 CMakeFiles/appGame-logic-qt.dir/player.cpp.i: cmake_force
@@ -243,7 +254,7 @@ CMakeFiles/appGame-logic-qt.dir/player.cpp.s: cmake_force
 CMakeFiles/appGame-logic-qt.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appGame-logic-qt_qmlcache_loader.cpp.o: CMakeFiles/appGame-logic-qt.dir/flags.make
 CMakeFiles/appGame-logic-qt.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appGame-logic-qt_qmlcache_loader.cpp.o: .rcc/qmlcache/appGame-logic-qt_qmlcache_loader.cpp
 CMakeFiles/appGame-logic-qt.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appGame-logic-qt_qmlcache_loader.cpp.o: CMakeFiles/appGame-logic-qt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/root/Qt creater/Game-logic-qt/build/Desktop_Qt_6_7_1-Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/appGame-logic-qt.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appGame-logic-qt_qmlcache_loader.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/root/Qt creater/Game-logic-qt/build/Desktop_Qt_6_7_1-Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/appGame-logic-qt.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appGame-logic-qt_qmlcache_loader.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appGame-logic-qt.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appGame-logic-qt_qmlcache_loader.cpp.o -MF CMakeFiles/appGame-logic-qt.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appGame-logic-qt_qmlcache_loader.cpp.o.d -o CMakeFiles/appGame-logic-qt.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appGame-logic-qt_qmlcache_loader.cpp.o -c "/root/Qt creater/Game-logic-qt/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appGame-logic-qt_qmlcache_loader.cpp"
 
 CMakeFiles/appGame-logic-qt.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appGame-logic-qt_qmlcache_loader.cpp.i: cmake_force
@@ -257,7 +268,7 @@ CMakeFiles/appGame-logic-qt.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appGa
 CMakeFiles/appGame-logic-qt.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appGame-logic-qt_main_qml.cpp.o: CMakeFiles/appGame-logic-qt.dir/flags.make
 CMakeFiles/appGame-logic-qt.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appGame-logic-qt_main_qml.cpp.o: .rcc/qmlcache/appGame-logic-qt_main_qml.cpp
 CMakeFiles/appGame-logic-qt.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appGame-logic-qt_main_qml.cpp.o: CMakeFiles/appGame-logic-qt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/root/Qt creater/Game-logic-qt/build/Desktop_Qt_6_7_1-Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/appGame-logic-qt.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appGame-logic-qt_main_qml.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/root/Qt creater/Game-logic-qt/build/Desktop_Qt_6_7_1-Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/appGame-logic-qt.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appGame-logic-qt_main_qml.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appGame-logic-qt.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appGame-logic-qt_main_qml.cpp.o -MF CMakeFiles/appGame-logic-qt.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appGame-logic-qt_main_qml.cpp.o.d -o CMakeFiles/appGame-logic-qt.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appGame-logic-qt_main_qml.cpp.o -c "/root/Qt creater/Game-logic-qt/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appGame-logic-qt_main_qml.cpp"
 
 CMakeFiles/appGame-logic-qt.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appGame-logic-qt_main_qml.cpp.i: cmake_force
@@ -268,10 +279,24 @@ CMakeFiles/appGame-logic-qt.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appGa
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/appGame-logic-qt.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appGame-logic-qt_main_qml.cpp.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/root/Qt creater/Game-logic-qt/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appGame-logic-qt_main_qml.cpp" -o CMakeFiles/appGame-logic-qt.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appGame-logic-qt_main_qml.cpp.s
 
+CMakeFiles/appGame-logic-qt.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appGame-logic-qt_Bullet_qml.cpp.o: CMakeFiles/appGame-logic-qt.dir/flags.make
+CMakeFiles/appGame-logic-qt.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appGame-logic-qt_Bullet_qml.cpp.o: .rcc/qmlcache/appGame-logic-qt_Bullet_qml.cpp
+CMakeFiles/appGame-logic-qt.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appGame-logic-qt_Bullet_qml.cpp.o: CMakeFiles/appGame-logic-qt.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/root/Qt creater/Game-logic-qt/build/Desktop_Qt_6_7_1-Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/appGame-logic-qt.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appGame-logic-qt_Bullet_qml.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appGame-logic-qt.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appGame-logic-qt_Bullet_qml.cpp.o -MF CMakeFiles/appGame-logic-qt.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appGame-logic-qt_Bullet_qml.cpp.o.d -o CMakeFiles/appGame-logic-qt.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appGame-logic-qt_Bullet_qml.cpp.o -c "/root/Qt creater/Game-logic-qt/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appGame-logic-qt_Bullet_qml.cpp"
+
+CMakeFiles/appGame-logic-qt.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appGame-logic-qt_Bullet_qml.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/appGame-logic-qt.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appGame-logic-qt_Bullet_qml.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/root/Qt creater/Game-logic-qt/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appGame-logic-qt_Bullet_qml.cpp" > CMakeFiles/appGame-logic-qt.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appGame-logic-qt_Bullet_qml.cpp.i
+
+CMakeFiles/appGame-logic-qt.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appGame-logic-qt_Bullet_qml.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/appGame-logic-qt.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appGame-logic-qt_Bullet_qml.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/root/Qt creater/Game-logic-qt/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appGame-logic-qt_Bullet_qml.cpp" -o CMakeFiles/appGame-logic-qt.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appGame-logic-qt_Bullet_qml.cpp.s
+
 CMakeFiles/appGame-logic-qt.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_appGame-logic-qt_raw_qml_0.cpp.o: CMakeFiles/appGame-logic-qt.dir/flags.make
 CMakeFiles/appGame-logic-qt.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_appGame-logic-qt_raw_qml_0.cpp.o: .qt/rcc/qrc_appGame-logic-qt_raw_qml_0.cpp
 CMakeFiles/appGame-logic-qt.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_appGame-logic-qt_raw_qml_0.cpp.o: CMakeFiles/appGame-logic-qt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/root/Qt creater/Game-logic-qt/build/Desktop_Qt_6_7_1-Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/appGame-logic-qt.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_appGame-logic-qt_raw_qml_0.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/root/Qt creater/Game-logic-qt/build/Desktop_Qt_6_7_1-Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/appGame-logic-qt.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_appGame-logic-qt_raw_qml_0.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appGame-logic-qt.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_appGame-logic-qt_raw_qml_0.cpp.o -MF CMakeFiles/appGame-logic-qt.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_appGame-logic-qt_raw_qml_0.cpp.o.d -o CMakeFiles/appGame-logic-qt.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_appGame-logic-qt_raw_qml_0.cpp.o -c "/root/Qt creater/Game-logic-qt/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_appGame-logic-qt_raw_qml_0.cpp"
 
 CMakeFiles/appGame-logic-qt.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_appGame-logic-qt_raw_qml_0.cpp.i: cmake_force
@@ -293,6 +318,7 @@ appGame__logic__qt_OBJECTS = \
 "CMakeFiles/appGame-logic-qt.dir/player.cpp.o" \
 "CMakeFiles/appGame-logic-qt.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appGame-logic-qt_qmlcache_loader.cpp.o" \
 "CMakeFiles/appGame-logic-qt.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appGame-logic-qt_main_qml.cpp.o" \
+"CMakeFiles/appGame-logic-qt.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appGame-logic-qt_Bullet_qml.cpp.o" \
 "CMakeFiles/appGame-logic-qt.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_appGame-logic-qt_raw_qml_0.cpp.o"
 
 # External object files for target appGame-logic-qt
@@ -307,6 +333,7 @@ appGame-logic-qt: CMakeFiles/appGame-logic-qt.dir/monster.cpp.o
 appGame-logic-qt: CMakeFiles/appGame-logic-qt.dir/player.cpp.o
 appGame-logic-qt: CMakeFiles/appGame-logic-qt.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appGame-logic-qt_qmlcache_loader.cpp.o
 appGame-logic-qt: CMakeFiles/appGame-logic-qt.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appGame-logic-qt_main_qml.cpp.o
+appGame-logic-qt: CMakeFiles/appGame-logic-qt.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appGame-logic-qt_Bullet_qml.cpp.o
 appGame-logic-qt: CMakeFiles/appGame-logic-qt.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_appGame-logic-qt_raw_qml_0.cpp.o
 appGame-logic-qt: CMakeFiles/appGame-logic-qt.dir/build.make
 appGame-logic-qt: /opt/Qt/6.7.1/gcc_64/lib/libQt6Quick.so.6.7.1
@@ -320,7 +347,7 @@ appGame-logic-qt: /opt/Qt/6.7.1/gcc_64/lib/libQt6Core.so.6.7.1
 appGame-logic-qt: /usr/lib/libGLX.so
 appGame-logic-qt: /usr/lib/libOpenGL.so
 appGame-logic-qt: CMakeFiles/appGame-logic-qt.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/root/Qt creater/Game-logic-qt/build/Desktop_Qt_6_7_1-Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_20) "Linking CXX executable appGame-logic-qt"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/root/Qt creater/Game-logic-qt/build/Desktop_Qt_6_7_1-Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_22) "Linking CXX executable appGame-logic-qt"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/appGame-logic-qt.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -333,6 +360,7 @@ CMakeFiles/appGame-logic-qt.dir/clean:
 
 CMakeFiles/appGame-logic-qt.dir/depend: .qt/rcc/qrc_appGame-logic-qt_raw_qml_0.cpp
 CMakeFiles/appGame-logic-qt.dir/depend: .qt/rcc/qrc_qmake_Game-logic-qt.cpp
+CMakeFiles/appGame-logic-qt.dir/depend: .rcc/qmlcache/appGame-logic-qt_Bullet_qml.cpp
 CMakeFiles/appGame-logic-qt.dir/depend: .rcc/qmlcache/appGame-logic-qt_main_qml.cpp
 CMakeFiles/appGame-logic-qt.dir/depend: .rcc/qmlcache/appGame-logic-qt_qmlcache_loader.cpp
 CMakeFiles/appGame-logic-qt.dir/depend: Game-logic-qt/appGame-logic-qt.qmltypes

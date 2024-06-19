@@ -20,11 +20,19 @@ ApplicationWindow {
         anchors.fill: parent
         color: "lightblue"
 
+    Component {
+        id: bulletComponent
+        Bullet {
+        }
+}
         Player{
             id:player
         }
         Monster{
             id:monster
+        }
+        Bullet{
+            id:bullet
         }
 
         Rectangle{
@@ -33,14 +41,15 @@ ApplicationWindow {
             height: 50
             x:player.position.x
             y:player.position.y
-            Image {
-                id: player_image
-                source: "./images/player.jpg"
-                anchors.fill: parent
 
-            }
+            // Image {
+            //     id: player_image
+            //     source: "./images/player.jpg"
+            //     anchors.fill: parent
+
+            // }
+
         }
-
         MouseArea {
             anchors.fill: parent
             onPressed: {
@@ -51,9 +60,20 @@ ApplicationWindow {
 
                 // 更新角色的旋转
                 playervisal.rotation = angle + 90;
+
+            }
+
+            onClicked: {
+                var bullet = bulletComponent.createObject(parent)
+                if (bullet) {
+                    bullet.x = playervisal.x + playervisal.width / 2 - bullet.width / 2
+                    bullet.y = playervisal.y + playervisal.height / 2 - bullet.height / 2
+                    var targetX = mouse.x - bullet.width / 2
+                    var targetY = mouse.y - bullet.height / 2
+                    bullet.fire(targetX, targetY)
             }
         }
-
+    }
         Keys.onPressed: {
             switch(event.key) {
             case Qt.Key_W:
@@ -75,15 +95,6 @@ ApplicationWindow {
                 if(playervisal.x < window.width - playervisal.width){
                 player.moveright();
                 }
-                break;
-            case Qt.Key_J:
-                monster.beAttacked(10)
-                console.log(monster.health)
-                if(monster.health === 0){
-                    console.log("exit")
-                    Qt.quit()
-                }
-
                 break;
             }
         }
@@ -110,5 +121,3 @@ ApplicationWindow {
             }
     }
 }
-
-

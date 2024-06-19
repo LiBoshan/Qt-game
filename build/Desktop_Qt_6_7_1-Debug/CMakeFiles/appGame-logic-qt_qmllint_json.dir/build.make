@@ -71,6 +71,7 @@ include CMakeFiles/appGame-logic-qt_qmllint_json.dir/progress.make
 
 CMakeFiles/appGame-logic-qt_qmllint_json: /opt/Qt/6.7.1/gcc_64/bin/qmllint
 CMakeFiles/appGame-logic-qt_qmllint_json: /root/Qt\ creater/Game-logic-qt/main.qml
+CMakeFiles/appGame-logic-qt_qmllint_json: /root/Qt\ creater/Game-logic-qt/Bullet.qml
 CMakeFiles/appGame-logic-qt_qmllint_json: .rcc/qmllint/appGame-logic-qt_json.rsp
 	cd "/root/Qt creater/Game-logic-qt" && /opt/Qt/6.7.1/gcc_64/bin/qmllint @/root/Qt\ creater/Game-logic-qt/build/Desktop_Qt_6_7_1-Debug/.rcc/qmllint/appGame-logic-qt_json.rsp
 

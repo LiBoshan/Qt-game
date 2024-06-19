@@ -12,6 +12,13 @@ namespace _0x5f_Game_0x2d_logic_0x2d_qt_main_qml {
         reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
     };
 }
+namespace _0x5f_Game_0x2d_logic_0x2d_qt_Bullet_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
 
 }
 namespace {
@@ -27,6 +34,7 @@ Q_GLOBAL_STATIC(Registry, unitRegistry)
 
 Registry::Registry() {
     resourcePathToCachedUnit.insert(QStringLiteral("/Game-logic-qt/main.qml"), &QmlCacheGeneratedCode::_0x5f_Game_0x2d_logic_0x2d_qt_main_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/Game-logic-qt/Bullet.qml"), &QmlCacheGeneratedCode::_0x5f_Game_0x2d_logic_0x2d_qt_Bullet_qml::unit);
     QQmlPrivate::RegisterQmlUnitCacheHook registration;
     registration.structVersion = 0;
     registration.lookupCachedQmlUnit = &lookupCachedUnit;

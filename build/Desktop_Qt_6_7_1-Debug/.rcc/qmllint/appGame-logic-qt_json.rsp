@@ -8,5 +8,6 @@
 --resource
 /root/Qt creater/Game-logic-qt/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/appGame-logic-qt_raw_qml_0.qrc
 /root/Qt creater/Game-logic-qt/main.qml
+/root/Qt creater/Game-logic-qt/Bullet.qml
 --json
 /root/Qt creater/Game-logic-qt/build/Desktop_Qt_6_7_1-Debug/appGame-logic-qt_qmllint.json

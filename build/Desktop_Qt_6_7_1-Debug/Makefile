@@ -429,6 +429,30 @@ build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_qmake_Game-logic-qt.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/appGame-logic-qt.dir/build.make CMakeFiles/appGame-logic-qt.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_qmake_Game-logic-qt.cpp.s
 .PHONY : build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_qmake_Game-logic-qt.cpp.s
 
+build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appGame-logic-qt_Bullet_qml.o: build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appGame-logic-qt_Bullet_qml.cpp.o
+.PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appGame-logic-qt_Bullet_qml.o
+
+# target to build an object file
+build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appGame-logic-qt_Bullet_qml.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/appGame-logic-qt.dir/build.make CMakeFiles/appGame-logic-qt.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appGame-logic-qt_Bullet_qml.cpp.o
+.PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appGame-logic-qt_Bullet_qml.cpp.o
+
+build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appGame-logic-qt_Bullet_qml.i: build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appGame-logic-qt_Bullet_qml.cpp.i
+.PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appGame-logic-qt_Bullet_qml.i
+
+# target to preprocess a source file
+build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appGame-logic-qt_Bullet_qml.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/appGame-logic-qt.dir/build.make CMakeFiles/appGame-logic-qt.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appGame-logic-qt_Bullet_qml.cpp.i
+.PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appGame-logic-qt_Bullet_qml.cpp.i
+
+build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appGame-logic-qt_Bullet_qml.s: build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appGame-logic-qt_Bullet_qml.cpp.s
+.PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appGame-logic-qt_Bullet_qml.s
+
+# target to generate assembly for a file
+build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appGame-logic-qt_Bullet_qml.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/appGame-logic-qt.dir/build.make CMakeFiles/appGame-logic-qt.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appGame-logic-qt_Bullet_qml.cpp.s
+.PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appGame-logic-qt_Bullet_qml.cpp.s
+
 build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appGame-logic-qt_main_qml.o: build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appGame-logic-qt_main_qml.cpp.o
 .PHONY : build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appGame-logic-qt_main_qml.o
 
@@ -610,6 +634,9 @@ help:
 	@echo "... build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_qmake_Game-logic-qt.o"
 	@echo "... build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_qmake_Game-logic-qt.i"
 	@echo "... build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_qmake_Game-logic-qt.s"
+	@echo "... build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appGame-logic-qt_Bullet_qml.o"
+	@echo "... build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appGame-logic-qt_Bullet_qml.i"
+	@echo "... build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appGame-logic-qt_Bullet_qml.s"
 	@echo "... build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appGame-logic-qt_main_qml.o"
 	@echo "... build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appGame-logic-qt_main_qml.i"
 	@echo "... build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appGame-logic-qt_main_qml.s"

@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "Game-logic-qt/Bullet.qml"
   "Game-logic-qt/images/player.jpg"
   "Game-logic-qt/main.qml"
 )

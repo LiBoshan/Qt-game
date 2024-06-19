@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   ".qt/rcc/qrc_appGame-logic-qt_raw_qml_0.cpp"
   ".qt/rcc/qrc_qmake_Game-logic-qt.cpp"
+  ".rcc/qmlcache/appGame-logic-qt_Bullet_qml.cpp"
   ".rcc/qmlcache/appGame-logic-qt_main_qml.cpp"
   ".rcc/qmlcache/appGame-logic-qt_qmlcache_loader.cpp"
   "CMakeFiles/appGame-logic-qt_autogen.dir/AutogenUsed.txt"
@@ -14,6 +15,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/appGame-logic-qt.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_appGame-logic-qt_raw_qml_0.cpp.o.d"
   "CMakeFiles/appGame-logic-qt.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_qmake_Game-logic-qt.cpp.o"
   "CMakeFiles/appGame-logic-qt.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_qmake_Game-logic-qt.cpp.o.d"
+  "CMakeFiles/appGame-logic-qt.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appGame-logic-qt_Bullet_qml.cpp.o"
+  "CMakeFiles/appGame-logic-qt.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appGame-logic-qt_Bullet_qml.cpp.o.d"
   "CMakeFiles/appGame-logic-qt.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appGame-logic-qt_main_qml.cpp.o"
   "CMakeFiles/appGame-logic-qt.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appGame-logic-qt_main_qml.cpp.o.d"
   "CMakeFiles/appGame-logic-qt.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appGame-logic-qt_qmlcache_loader.cpp.o"

@@ -1,6 +1,7 @@
 <RCC>
   <qresource prefix="/Game-logic-qt/">
     <file alias="main.qml">/root/Qt creater/Game-logic-qt/main.qml</file>
+    <file alias="Bullet.qml">/root/Qt creater/Game-logic-qt/Bullet.qml</file>
     <file alias="images/player.jpg">/root/Qt creater/Game-logic-qt/images/player.jpg</file>
   </qresource>
 </RCC>

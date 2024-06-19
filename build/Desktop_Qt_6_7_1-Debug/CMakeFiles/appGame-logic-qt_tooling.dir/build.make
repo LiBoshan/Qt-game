@@ -73,10 +73,15 @@ Game-logic-qt/main.qml: /root/Qt\ creater/Game-logic-qt/main.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/root/Qt creater/Game-logic-qt/build/Desktop_Qt_6_7_1-Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Copying main.qml to /root/Qt creater/Game-logic-qt/build/Desktop_Qt_6_7_1-Debug/Game-logic-qt/main.qml"
 	cd "/root/Qt creater/Game-logic-qt" && /usr/bin/cmake -E copy "/root/Qt creater/Game-logic-qt/main.qml" "/root/Qt creater/Game-logic-qt/build/Desktop_Qt_6_7_1-Debug/Game-logic-qt/main.qml"
 
+Game-logic-qt/Bullet.qml: /root/Qt\ creater/Game-logic-qt/Bullet.qml
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/root/Qt creater/Game-logic-qt/build/Desktop_Qt_6_7_1-Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Copying Bullet.qml to /root/Qt creater/Game-logic-qt/build/Desktop_Qt_6_7_1-Debug/Game-logic-qt/Bullet.qml"
+	cd "/root/Qt creater/Game-logic-qt" && /usr/bin/cmake -E copy "/root/Qt creater/Game-logic-qt/Bullet.qml" "/root/Qt creater/Game-logic-qt/build/Desktop_Qt_6_7_1-Debug/Game-logic-qt/Bullet.qml"
+
 Game-logic-qt/images/player.jpg: /root/Qt\ creater/Game-logic-qt/images/player.jpg
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/root/Qt creater/Game-logic-qt/build/Desktop_Qt_6_7_1-Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Copying images/player.jpg to /root/Qt creater/Game-logic-qt/build/Desktop_Qt_6_7_1-Debug/Game-logic-qt/images/player.jpg"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/root/Qt creater/Game-logic-qt/build/Desktop_Qt_6_7_1-Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Copying images/player.jpg to /root/Qt creater/Game-logic-qt/build/Desktop_Qt_6_7_1-Debug/Game-logic-qt/images/player.jpg"
 	cd "/root/Qt creater/Game-logic-qt" && /usr/bin/cmake -E copy "/root/Qt creater/Game-logic-qt/images/player.jpg" "/root/Qt creater/Game-logic-qt/build/Desktop_Qt_6_7_1-Debug/Game-logic-qt/images/player.jpg"
 
+appGame-logic-qt_tooling: Game-logic-qt/Bullet.qml
 appGame-logic-qt_tooling: Game-logic-qt/images/player.jpg
 appGame-logic-qt_tooling: Game-logic-qt/main.qml
 appGame-logic-qt_tooling: CMakeFiles/appGame-logic-qt_tooling.dir/build.make

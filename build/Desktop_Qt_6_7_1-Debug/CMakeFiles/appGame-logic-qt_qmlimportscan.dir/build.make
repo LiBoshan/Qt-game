@@ -75,6 +75,7 @@ CMakeFiles/appGame-logic-qt_qmlimportscan: .qt/qml_imports/appGame-logic-qt_buil
 .qt/qml_imports/appGame-logic-qt_build.cmake: .qt/rcc/qmake_Game-logic-qt.qrc
 .qt/qml_imports/appGame-logic-qt_build.cmake: .qt/rcc/appGame-logic-qt_raw_qml_0.qrc
 .qt/qml_imports/appGame-logic-qt_build.cmake: /root/Qt\ creater/Game-logic-qt/main.qml
+.qt/qml_imports/appGame-logic-qt_build.cmake: /root/Qt\ creater/Game-logic-qt/Bullet.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/root/Qt creater/Game-logic-qt/build/Desktop_Qt_6_7_1-Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Running qmlimportscanner for appGame-logic-qt"
 	cd "/root/Qt creater/Game-logic-qt" && /opt/Qt/6.7.1/gcc_64/libexec/qmlimportscanner "@/root/Qt creater/Game-logic-qt/build/Desktop_Qt_6_7_1-Debug/.qt/qml_imports/appGame-logic-qt_build.rsp"
 
